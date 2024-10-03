@@ -54,23 +54,6 @@ In the competitive real estate market of Bangalore, predicting the price of home
   
 - **Deployment**: Flask server (local or cloud-based).
 
-## Project Structure
-
-```
-Bangalore_House_Price_Prediction/
-│
-├── static/
-│   └── app.css            # Styling for the web interface
-│
-├── templates/
-│   └── app.html           # HTML file for the user interface
-│
-├── app.py                 # Flask server and API endpoints
-├── model.py               # Code to load the ML model and make predictions
-├── README.md              # Project documentation
-├── requirements.txt       # Python dependencies
-└── ...
-```
 
 ## Installation
 
