@@ -1,35 +1,21 @@
 // Fetch the selected bathroom value
 function getBathValue() {
-    var uiBathrooms = document.getElementsByName("uiBathrooms");
-    for (let bathroom of uiBathrooms) {
-      if (bathroom.checked) {
-        return parseInt(bathroom.value); // Get the value of the checked bathroom option
-      }
-    }
-    return -1; // Invalid value
-  }
+    var uiBathrooms = document.getElementById("uiBathrooms");
+    return parseInt(uiBathrooms.value); // Get the value of the selected bathroom option
+}
 
+// Fetch the selected balcony value
 function getBalconyValue() {
-    var uiBalcony = document.getElementsByName("uiBalcony");
-    for (let Balcony of uiBalcony) {
-      if (Balcony.checked) {
-        return parseInt(Balcony.value); // Get the value of the checked bathroom option
-      }
-    }
-    return -1; // Invalid value
-  }
+    var uiBalcony = document.getElementById("uiBalcony");
+    return parseInt(uiBalcony.value); // Get the value of the selected balcony option
+}
 
 
   // Fetch the selected BHK value
   function getBHKValue() {
-    var uiBHK = document.getElementsByName("uiBHK");
-    for (let bhk of uiBHK) {
-      if (bhk.checked) {
-        return parseInt(bhk.value); // Get the value of the checked BHK option
-      }
-    }
-    return -1; // Invalid value
-  }
+    var uiBHK = document.getElementById("uiBHK");
+    return parseInt(uiBHK.value); // Get the value of the selected BHK option
+}
 
   // Handle the price estimation when the button is clicked
   function onClickedEstimatePrice() {
